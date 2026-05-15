@@ -181,3 +181,31 @@ font-size: 24px;
 line-height: 1.33333;
 }
 }
+/* Why a quiet game gets loud reactions */
+.why-container{
+    padding: 30px 21px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.why-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 318px;
+}
+@media only screen and (min-width: 1440px) {
+.why-container {
+        padding: 50px 93px;
+flex-direction: row;
+        gap: 86px;
+    }
+.why-wrapper{
+    width: 767px;
+}
+    .why-text-wrapper {
+width: 740px;
+gap: 16px;
+    }
+}
