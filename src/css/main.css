@@ -144,3 +144,40 @@ font-size: 50px;
         color: #fff;
     }
 }
+/* The anatomy of a failed count */
+.anatomy-container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.anatomy-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 354px;
+}
+.anatomy-text{
+    font-size: 15px;
+}
+@media only screen and (min-width: 1440px) {
+.anatomy-container {
+        padding-top: 100px;
+        padding-bottom: 50px;
+flex-direction: row-reverse;
+        gap: 86px;
+    }
+.anatomy-wrapper{
+    width: 767px;
+}
+.anatomy-text-wrapper {
+ width: 746px;
+gap: 20px;
+}
+.anatomy-text {
+font-size: 24px;
+line-height: 1.33333;
+}
+}
