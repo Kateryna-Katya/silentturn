@@ -378,8 +378,8 @@ font-family: "Playpen Sans", sans-serif;
 
 .faq-acc-el-descr-frame {
     background: inherit;
-    width: 343px;
-
+width: 286px;
+color: rgba(255, 255, 255, 0.6);
     text-align: left;
     overflow: hidden;
     max-height: 0;
@@ -416,6 +416,9 @@ width: 1024px;
     .faq-acc-el-trigger {
 font-size: 20px;
     }
+.faq-acc-el-descr-frame{
+width: 930px;
+}
     .faq-acc-el.open .faq-acc-el-descr-frame {
         width: 930px;
         font-size: 18px;
