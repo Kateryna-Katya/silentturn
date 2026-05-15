@@ -112,3 +112,35 @@ font-size: 27px;
 line-height: 1.42857;
 }
 }
+/* One rule. Endless collapse. */
+.rule-section{
+background: #101828;
+
+}
+.rule-container{
+padding: 34px 28px;    
+}
+.rule-title{
+ text-align: center;
+ color: #fff;
+}
+.rule-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.rule-container {
+ padding: 76px 320px;
+}
+.rule-title {
+font-size: 50px;
+}
+.rule-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #fff;
+    }
+}
