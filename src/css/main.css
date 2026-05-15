@@ -209,3 +209,97 @@ width: 740px;
 gap: 16px;
     }
 }
+/* Not every game survives every room. This one usually does. */
+.not-container{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.not-container h2{
+    text-align: center;
+}
+.not-text-wrapper{
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.not-text{
+    text-align: center;
+}
+.not-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+.not-item{
+border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 15px;
+    width: 313px;
+    height: 95px;
+    background: #101828;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+.not-img{
+    width: 28px;
+    height: 28px;
+}
+.not-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.not-item-title{
+font-weight: 500;
+line-height: 2;
+color: #fff;
+}
+.not-item-text{
+    color: rgba(255, 255, 255, 0.7);
+}
+.not-last-text{
+    margin-top: 20px;
+    width: 324px;
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.not-container {
+        padding-left: 220px;
+        padding-right: 220px;
+        padding-bottom: 100px;
+}
+
+    .not-text-wrapper {
+width: 970px;
+}
+.not-list {
+ gap: 16px;
+}
+.not-item {
+padding: 25px 25px 1px;
+width: 681px;
+height: 106px;
+}
+.not-img {
+width: 46px;
+height: 46px;
+}
+.not-item-title {
+font-size: 18px;
+line-height: 1.55556;
+}
+.not-item-text {
+font-size: 16px;
+}
+.not-last-text {
+width: 100%;
+}
+}
