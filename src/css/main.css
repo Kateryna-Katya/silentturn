@@ -416,10 +416,11 @@ width: 1024px;
     .faq-acc-el-trigger {
 font-size: 20px;
     }
-
-
     .faq-acc-el.open .faq-acc-el-descr-frame {
         width: 930px;
         font-size: 18px;
     }
+.faq-container {
+    padding: 67px 208px;
+}
 }
